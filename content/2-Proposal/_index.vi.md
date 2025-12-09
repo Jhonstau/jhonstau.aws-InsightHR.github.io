@@ -11,7 +11,7 @@ pre: " <b> 2. </b> "
 [SKYLINE2] – [FPTU] – [INSIGHTHR]  
 [9-Dec-2025]
 
-[Proposal](/static/pdf/proposal-insighthr.pdf)
+[Download Proposal](/static/pdf/proposal-insighthr.pdf)
 
 ---
 
