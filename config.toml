@@ -1,4 +1,4 @@
-baseURL = "https://thienluhoan.github.io/workshop-template/"
+baseURL = "/"
 relativeURLs = true
 canonifyURLs = true
 
