@@ -15,11 +15,13 @@ pre: " <b> 1.6. </b> "
 ## Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 27   | Too sick for work. | 10/13/2025 | 10/13/2025      | N/A |
-| 28   | Too sick for work. | 10/14/2025 | 10/14/2025      | N/A |
-| 29   | - Resumed work and focused on **Data sanitization #2** <br> - Performed feature engineering and data normalization to prepare for model input | 10/15/2025 | 10/15/2025      | |
-| 30   | - Attended (**Workshop: Data Science on AWS**) <br> - Needed to **regenerate data** due to mandatory changes in the **project's aligned goal** and scope | 10/16/2025 | 10/16/2025      | AWS Documentations: <https://docs.aws.amazon.com/> |
-| 31   | - Began **Data generation #1** for the new project goal | 10/17/2025 | 10/17/2025 | |
+| Monday | Too sick for work. | 10/13/2025 | 10/13/2025      | N/A |
+| Tuesday | Too sick for work. | 10/14/2025 | 10/14/2025      | N/A |
+| Wednesday | - Resumed work and focused on **Data sanitization #2** <br> - Performed feature engineering and data normalization to prepare for model input | 10/15/2025 | 10/15/2025      | |
+| Wednesday | - Attended (**Workshop: Data Science on AWS**) <br> - Needed to **regenerate data** due to mandatory changes in the **project's aligned goal** and scope | 10/16/2025 | 10/16/2025      | AWS Documentations: <https://docs.aws.amazon.com/> |
+| Thursday | - Began **Data generation #1** for the new project goal | 10/17/2025 | 10/17/2025 | |
+| Friday | Break | 10/18/2025 | 10/18/2025 | |
+| Saturday | Break | 10/19/2025 | 10/19/2025 | |
 
 ***
 

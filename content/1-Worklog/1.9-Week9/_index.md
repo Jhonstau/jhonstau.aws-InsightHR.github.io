@@ -15,12 +15,12 @@ pre: " <b> 1.9. </b> "
 ## Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 42   | - Configured **Basic DynamoDB setups** (tables and initial read/write capacity) <br> - Implemented initial **Cloudwatch Setups** for monitoring EC2/Lambda activity | 11/03/2025 | 11/03/2025      | AWS Documentations: <https://docs.aws.amazon.com/> |
-| 43   | - Set up **Cloudwatch Canaries** for synthetic monitoring of the application endpoints <br> - Configured **SNS** (Simple Notification Service) topics and subscriptions for alerts | 11/04/2025 | 11/04/2025      | |
-| 44   | Break. | 11/05/2025 | 11/05/2025      | |
-| 45   | - Updated **Cloudwatch Config** to match the project's additional features and new metrics requirements | 11/06/2025 | 11/06/2025      |AWS Documentations: <https://docs.aws.amazon.com/> |
-| 46   | - Performed **DynamoDB re-config** to optimize the key schema for the most frequent query patterns | 11/07/2025 | 11/07/2025 | AWS Documentations: <https://docs.aws.amazon.com/> |
-
+| Monday | - Configured **Basic DynamoDB setups** (tables and initial read/write capacity) <br> - Implemented initial **Cloudwatch Setups** for monitoring EC2/Lambda activity | 11/03/2025 | 11/03/2025      | AWS Documentations: <https://docs.aws.amazon.com/> |
+| Tuesday | - Set up **Cloudwatch Canaries** for synthetic monitoring of the application endpoints <br> - Configured **SNS** (Simple Notification Service) topics and subscriptions for alerts | 11/04/2025 | 11/04/2025      | |
+| Wednesday | Break. | 11/05/2025 | 11/05/2025      | |
+| Thursday | - Updated **Cloudwatch Config** to match the project's additional features and new metrics requirements | 11/06/2025 | 11/06/2025      |AWS Documentations: <https://docs.aws.amazon.com/> |
+| Friday | - Performed **DynamoDB re-config** to optimize the key schema for the most frequent query patterns | 11/07/2025 | 11/07/2025 | AWS Documentations: <https://docs.aws.amazon.com/> |
+| Saturday | Break | 11/08/2025 | 11/08/2025 |  |
 ***
 
 ## Week 9 Achievements:
