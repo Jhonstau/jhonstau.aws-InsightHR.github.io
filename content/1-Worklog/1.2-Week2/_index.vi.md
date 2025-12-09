@@ -22,8 +22,6 @@ pre: " <b> 1.2. </b> "
 | Năm | - Nghiên cứu **Module 04: Bảo mật và Tuân thủ #2** <br> - Giới thiệu về các dịch vụ bảo mật chính: **KMS** (Key Management Service) và **Cognito** <br> - Tìm hiểu về tầm quan trọng của **mã hóa** (encryption) khi lưu trữ và khi truyền tải | 09/18/2025 | 09/18/2025 | Hướng dẫn của Bootcamp: <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> <br> Tài liệu **AWS**: <https://docs.aws.amazon.com/> |
 | Sáu | - Nghiên cứu **Module 04: Bảo mật và Tuân thủ #3** <br> - Giới thiệu về **CloudTrail** để ghi nhật ký hoạt động **API** <br> - **Thực hành:** Tạo một trail **CloudTrail** và xác nhận việc gửi log đến **S3** <br> | 09/19/2025 | 09/19/2025 | Hướng dẫn của Bootcamp: <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> <br> Tài liệu **AWS**: <https://docs.aws.amazon.com/> |
 | Bảy | - **Thực hành:** Cấu hình một **IAM** role để một **EC2** instance có thể đảm nhận | 09/20/2025 | 09/20/2025 | Hướng dẫn của Bootcamp: <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> <br> Tài liệu **AWS**: <https://docs.aws.amazon.com/> |
-| Bảy | Nghỉ. | 09/21/2025 | 09/21/2025 |  |
-***
 
 ## Kết quả đạt được Tuần 2:
 
