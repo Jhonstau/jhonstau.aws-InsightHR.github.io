@@ -1,31 +1,109 @@
 ---
 title: "Workshop"
-date: ""
+date: "2025-12-09"
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+
+# InsightHR - Serverless HR Automation Platform Workshop
+
+## Overview
+
+**InsightHR** is a modern, fully serverless HR automation platform built on AWS that demonstrates best practices for cloud-native application development. This workshop guides you through building and deploying a complete production-ready application using AWS services.
+
+## What You'll Build
+
+A comprehensive HR management system featuring:
+
+- **Employee Management**: Full CRUD operations with advanced filtering
+- **Performance Tracking**: Quarterly performance scores and KPI management
+- **Attendance System**: Real-time check-in/check-out with history tracking
+- **AI Chatbot**: Natural language queries powered by AWS Bedrock (Claude 3)
+- **Dashboard Analytics**: Interactive performance visualization
+- **Role-Based Access Control**: Admin, Manager, and Employee roles
+- **Authentication**: Email/password and Google OAuth via AWS Cognito
+
+## Architecture Highlights
+
+- ✅ **100% Serverless** - No EC2 instances to manage
+- ✅ **Scalable** - Auto-scales with demand
+- ✅ **Cost-Effective** - Pay only for what you use
+- ✅ **Secure** - Built-in security with Cognito and IAM
+- ✅ **Modern Stack** - React + TypeScript + Python
+- ✅ **Production-Ready** - CloudWatch monitoring and custom domain
+
+## AWS Services Used
+
+- **Frontend**: S3 + CloudFront + Route53
+- **Backend**: Lambda + API Gateway + DynamoDB
+- **Authentication**: Cognito User Pools
+- **AI/ML**: Amazon Bedrock (Claude 3 Haiku)
+- **Monitoring**: CloudWatch + Synthetics Canaries
+- **Security**: IAM + ACM (SSL Certificates)
+
+## Workshop Content
+
+1. [Workshop Overview](5.1-workshop-overview/)
+2. [Prerequisites](5.2-prerequisite/)
+3. [Project Architecture](5.3-architecture/)
+4. [Setup AWS Environment](5.4-setup-aws/)
+5. [Database Setup (DynamoDB)](5.5-database-setup/)
+6. [Authentication Service](5.6-authentication/)
+7. [Backend Services](5.7-backend-services/)
+8. [Frontend Development](5.8-frontend/)
+9. [Deployment](5.9-deployment/)
+10. [Testing & Monitoring](5.10-testing/)
+11. [Cleanup](5.11-cleanup/)
+
+## Learning Outcomes
+
+By completing this workshop, you will learn:
+
+- How to design and implement serverless architectures
+- Best practices for AWS Lambda and API Gateway
+- DynamoDB data modeling and optimization
+- AWS Cognito authentication flows
+- Integration with AWS Bedrock for AI capabilities
+- CloudFront CDN configuration
+- Infrastructure as Code principles
+- Production deployment strategies
+- Cost optimization techniques
+
+## Prerequisites
+
+- AWS Account with appropriate permissions
+- Basic knowledge of JavaScript/TypeScript and Python
+- Familiarity with React framework
+- Understanding of REST APIs
+- AWS CLI installed and configured
+
+## Estimated Time
+
+- **Full Workshop**: 4-6 hours
+- **Core Features Only**: 2-3 hours
+
+## Cost Estimate
+
+Running this workshop will incur minimal AWS costs:
+
+- **DynamoDB**: ~$0.50/month (on-demand pricing)
+- **Lambda**: Free tier covers most usage
+- **S3 + CloudFront**: ~$1-2/month
+- **API Gateway**: ~$0.10/month
+- **Bedrock**: ~$0.0004 per query
+- **Total**: ~$2-5/month for development
+
+{{% notice tip %}}
+Remember to clean up resources after completing the workshop to avoid ongoing charges.
 {{% /notice %}}
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+## Support
 
-#### Overview
+For questions or issues during the workshop:
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+- Check the troubleshooting sections in each module
+- Review AWS documentation links provided
+- Refer to the GitHub repository for code samples
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
-
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
-
-#### Content
-
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+Let's get started! 🚀
