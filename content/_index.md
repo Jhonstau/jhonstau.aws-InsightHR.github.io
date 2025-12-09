@@ -9,7 +9,7 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** skbiid Đặng Nguyễn Minh Duy
+&emsp; **Full Name:** Đặng Nguyễn Minh Duy
 
 &emsp; **Phone Number:** 0985515251
 
