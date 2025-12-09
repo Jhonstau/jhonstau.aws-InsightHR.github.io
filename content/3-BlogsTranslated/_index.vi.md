@@ -1,0 +1,16 @@
+---
+title: "Các Blog đã Dịch"
+date: ""
+weight: 3
+chapter: false
+pre: " <b> 3. </b> "
+---
+
+###  [Blog 1 - Triển khai failover trong Amazon EKS đa Region](3.1-Blog1/)
+Blog này giới thiệu cách triển khai khả năng chuyển đổi dự phòng **granular, active-passive** cho các ứng dụng được triển khai trên **Amazon EKS (Elastic Kubernetes Service)** trên nhiều **AWS Region**. Bạn sẽ tìm hiểu lý do tại sao khôi phục sau thảm họa đa **Region** lại rất quan trọng để đạt được tính sẵn sàng cao và duy trì hoạt động kinh doanh liên tục cho các khối lượng công việc container quan trọng, cách chuyển đổi dự phòng **granular** cho phép chuyển đổi lưu lượng truy cập có chọn lọc ở cấp độ dịch vụ (thay vì chuyển đổi dự phòng toàn bộ cụm), và vai trò của **Amazon Route 53** và **AWS Gateway Load Balancer (GWLB)** trong kiến trúc có khả năng phục hồi cao này. Bài viết cũng hướng dẫn bạn các bước để thiết lập các cụm **EKS** ở hai **Region**, cấu hình **Route 53 health checks** và **failover routing**, cũng như triển khai cơ sở hạ tầng mạng cần thiết để đảm bảo quản lý lưu lượng truy cập và khả năng phục hồi liền mạch.
+
+###  [Blog 2 - Tùy chỉnh môi trường dự án Amazon SageMaker Unified Studio theo nhu cầu bằng custom blueprints](3.2-Blog2/)
+Blog này giới thiệu cách tùy chỉnh môi trường dự án **Amazon SageMaker Studio** bằng cách sử dụng các template dự án tùy chỉnh, hay còn gọi là **blueprints**, cho quy trình làm việc học máy (**ML**). Bạn sẽ tìm hiểu lý do tại sao các template tùy chỉnh lại cần thiết để chuẩn hóa môi trường, tích hợp các tài nguyên cụ thể (như **Amazon ECR images** tùy chỉnh hoặc cơ sở hạ tầng chuyên biệt), và đảm bảo tuân thủ trên các dự án **MLOps**, cách các **blueprints** này được xây dựng bằng **AWS Service Catalog**, và vai trò của **Amazon CodeCommit** và **AWS CodePipeline** trong việc quản lý vòng đời của các template tùy chỉnh này. Bài viết cũng hướng dẫn bạn các bước để tạo và chia sẻ **custom project blueprints** của riêng bạn, quản lý việc cấp phát tài nguyên và cung cấp cho các nhà khoa học dữ liệu một môi trường được cấu hình sẵn, nhất quán, phù hợp với nhu cầu chính xác của họ.
+
+###  [Blog 3 - Nâng cao kiểm tra TLS với tính năng SNI session holding trong AWS Network Firewall](3.3-Blog3/)
+Blog này giới thiệu cách nâng cao kiểm tra **TLS** và tư thế bảo mật bằng cách sử dụng tính năng **Server Name Indication (SNI) session holding** mới trong **AWS Network Firewall**. Bạn sẽ tìm hiểu lý do tại sao **Network Firewall** là một lớp quan trọng để kiểm tra gói sâu (**deep packet inspection**) và phân đoạn mạng (**network segmentation**) trong các **VPC** của bạn, cách tính năng **SNI session holding** ngăn chặn việc vượt qua chính sách bảo mật bằng cách đảm bảo rằng các kết nối tiếp theo từ cùng một **client** tái sử dụng phiên **TLS** ban đầu, và tầm quan trọng của tính năng này đối với việc tuân thủ bảo mật và ngăn chặn mối đe dọa mạnh mẽ. Bài viết cũng hướng dẫn bạn các bước để cấu hình và triển khai **Network Firewall** với **SNI session holding**, chứng minh cách nó cải thiện độ chính xác của kiểm tra **TLS**, và đảm bảo áp dụng các quy tắc bảo mật nhất quán.
