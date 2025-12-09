@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://jhonstau.github.io/jhonstau.aws-InsightHR.github.io/"
 relativeURLs = true
 canonifyURLs = true
 
